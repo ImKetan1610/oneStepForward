@@ -12,4 +12,4 @@ In general, Debouncing is a way of delaying the execution of a function until a 
 
 ## Example
 
-Imagine we have a search box that shows suggestions as the user types, If we call a function to fetch suggestions on every keystroke, we might end up making too many requests to the server, which ca slow down the application and waste
+Imagine we have a search box that shows suggestions as the user types, If we call a function to fetch suggestions on every keystroke, we might end up making too many requests to the server, which ca slow down the application and waste resources. Instead, we can use debouncing to wait until the user has stopped typing for a while before making the request
