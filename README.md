@@ -57,4 +57,3 @@ Here, `curry(a)(b)(c)` is how you would call the function after currying.
 **Answer:** - Flattening is the process of converting a complex, nested structure, such as an array or object, into a simpler, one-dimensional structure. For example, a nested array like `[1, [2, [3, 4]]]` can be flattened into `[1, 2, 3, 4]`, and a nested object like `{ a: { b: 2 } }` can be flattened into `{ "a.b": 2 }`. This simplification makes the data easier to access, manage, and use with systems or functions that require flat structures.
 
 [**⬆ Top**](#onestepforward)
-
