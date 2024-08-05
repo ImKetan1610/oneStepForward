@@ -8,6 +8,7 @@
 | What is throttling?                                         | [Click Here](#what-is-throttling)  |
 | What is the difference between debouncing and throttling?   | [Click Here](#what-is-the-difference-between-debouncing-and-throttling)  |
 | What is currying?                                           | [Click Here](#what-is-currying)    |
+| What is flattening?                                           | [Click Here](#what-is-flattening)    |
 
 ## What is debouncing?
 **Answer:** - Debounce is a technique used in programming to limit the rate at which a function is executed. When an action is triggered multiple times in quick succession, like a user typing in a search bar or resizing a window, debounce ensures that the function associated with the action is not called too frequently. Instead, the function is executed after a specified delay, and if the action is triggered again before the delay ends, the timer resets. This helps in improving performance and avoiding unnecessary function calls, especially in situations where the action is likely to occur repeatedly within a short period.
@@ -51,3 +52,9 @@ function curry(a) {
 Here, `curry(a)(b)(c)` is how you would call the function after currying.
 
 [**⬆ Top**](#onestepforward)
+
+## What is Flattening?
+**Answer:** - Flattening is the process of converting a complex, nested structure, such as an array or object, into a simpler, one-dimensional structure. For example, a nested array like `[1, [2, [3, 4]]]` can be flattened into `[1, 2, 3, 4]`, and a nested object like `{ a: { b: 2 } }` can be flattened into `{ "a.b": 2 }`. This simplification makes the data easier to access, manage, and use with systems or functions that require flat structures.
+
+[**⬆ Top**](#onestepforward)
+
