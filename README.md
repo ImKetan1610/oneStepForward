@@ -1,6 +1,4 @@
-To create a table of contents in your README file that links to specific sections, you can use markdown's link syntax. Below is the table you requested:
 
-```markdown
 # OneStepForward
 
 ## Table of Contents
@@ -30,6 +28,3 @@ To create a table of contents in your README file that links to specific section
 | **Delay Behavior**        | Executes the function at the start and then at each interval. | Executes the function after the event stops, with a reset timer if the event occurs again. |
 
 Both techniques are used to optimize performance by controlling how often a function is called in response to frequent events.
-```
-
-This will create a table of contents at the top of your README file, with clickable links that take you to the relevant sections.
