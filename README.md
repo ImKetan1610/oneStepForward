@@ -7,7 +7,7 @@
 |-------------------------------------------------------------|------------------------------------|
 | What is debouncing?                                         | [Click Here](#what-is-debouncing)  |
 | What is throttling?                                         | [Click Here](#what-is-throttling)  |
-| What is the difference between debouncing and throttling?   | [Click Here](#what-is-a-difference-between-debouncing-and-throttling)  |
+| What is the difference between debouncing and throttling?   | [Click Here](#what-is-the-difference-between-debouncing-and-throttling)  |
 
 ## What is debouncing?
 **Answer:** - Debounce is a technique used in programming to limit the rate at which a function is executed. When an action is triggered multiple times in quick succession, like a user typing in a search bar or resizing a window, debounce ensures that the function associated with the action is not called too frequently. Instead, the function is executed after a specified delay, and if the action is triggered again before the delay ends, the timer resets. This helps in improving performance and avoiding unnecessary function calls, especially in situations where the action is likely to occur repeatedly within a short period.
