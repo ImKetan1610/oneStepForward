@@ -1,4 +1,3 @@
-
 # OneStepForward
 
 ## Table of Contents
@@ -8,13 +7,17 @@
 | What is debouncing?                                         | [Click Here](#what-is-debouncing)  |
 | What is throttling?                                         | [Click Here](#what-is-throttling)  |
 | What is the difference between debouncing and throttling?   | [Click Here](#what-is-the-difference-between-debouncing-and-throttling)  |
-| What is currying?   | [Click Here](#what-is-currying)  |
+| What is currying?                                           | [Click Here](#what-is-currying)    |
 
 ## What is debouncing?
 **Answer:** - Debounce is a technique used in programming to limit the rate at which a function is executed. When an action is triggered multiple times in quick succession, like a user typing in a search bar or resizing a window, debounce ensures that the function associated with the action is not called too frequently. Instead, the function is executed after a specified delay, and if the action is triggered again before the delay ends, the timer resets. This helps in improving performance and avoiding unnecessary function calls, especially in situations where the action is likely to occur repeatedly within a short period.
 
+[**⬆ Top**](#onestepforward)
+
 ## What is Throttling?
 **Answer:** - Throttling is a technique used to control the frequency at which a function is executed. Unlike debouncing, which delays the function call until the actions stop, throttling ensures that a function is called at regular intervals, regardless of how many times the triggering event occurs. For example, if you have a function that needs to run when a user scrolls a webpage, throttling will make sure the function is executed only once every specified time interval, even if the scroll event is happening continuously. This helps in managing performance by preventing a function from being called too often in response to rapid or repeated events.
+
+[**⬆ Top**](#onestepforward)
 
 ## What is the difference between debouncing and throttling?
 **Answer:** - Here's a comparison between throttling and debouncing:
@@ -30,6 +33,8 @@
 
 Both techniques are used to optimize performance by controlling how often a function is called in response to frequent events.
 
+[**⬆ Top**](#onestepforward)
+
 ## What is currying?
 **Answer:** - Currying is a functional programming technique where a function with multiple arguments is transformed into a sequence of functions, each with a single argument.
 
@@ -44,3 +49,5 @@ function curry(a) {
 }
 ```
 Here, `curry(a)(b)(c)` is how you would call the function after currying.
+
+[**⬆ Top**](#onestepforward)
