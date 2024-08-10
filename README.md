@@ -8,6 +8,7 @@
 | What is debouncing?                                         | [Click Here](#what-is-debouncing)  |
 | What is throttling?                                         | [Click Here](#what-is-throttling)  |
 | What is the difference between debouncing and throttling?   | [Click Here](#what-is-the-difference-between-debouncing-and-throttling)  |
+| What is currying?   | [Click Here](#what-is-currying)  |
 
 ## What is debouncing?
 **Answer:** - Debounce is a technique used in programming to limit the rate at which a function is executed. When an action is triggered multiple times in quick succession, like a user typing in a search bar or resizing a window, debounce ensures that the function associated with the action is not called too frequently. Instead, the function is executed after a specified delay, and if the action is triggered again before the delay ends, the timer resets. This helps in improving performance and avoiding unnecessary function calls, especially in situations where the action is likely to occur repeatedly within a short period.
@@ -28,3 +29,18 @@
 | **Delay Behavior**        | Executes the function at the start and then at each interval. | Executes the function after the event stops, with a reset timer if the event occurs again. |
 
 Both techniques are used to optimize performance by controlling how often a function is called in response to frequent events.
+
+## What is currying?
+**Answer:** - Currying is a functional programming technique where a function with multiple arguments is transformed into a sequence of functions, each with a single argument.
+
+**Syntax example (JavaScript):**
+```javascript
+function curry(a) {
+  return function(b) {
+    return function(c) {
+      return a + b + c;
+    };
+  };
+}
+```
+Here, `curry(a)(b)(c)` is how you would call the function after currying.
